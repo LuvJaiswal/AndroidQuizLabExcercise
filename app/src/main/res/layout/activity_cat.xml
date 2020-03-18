@@ -25,25 +25,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="200dp">
+    android:layout_marginTop="50dp">
 
 
-    <TextView
-        android:id="@+id/btn_and"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="15dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:padding="15dp"
-        android:onClick="AndroidQuiz"
-        android:text="Android"
-        android:textColor="@android:color/white"
-        android:textSize="30dp"
-        android:background="@drawable/cat"
-/>
-
-<!--    <TextView-->
+    <!--    <TextView-->
 
 <!--        android:id="@+id/btn_it"-->
 <!--        android:layout_width="match_parent"-->
@@ -58,7 +43,23 @@
 <!--        android:textColor="@android:color/white"-->
 <!--        android:textSize="30dp" />-->
 
+    <TextView
+        android:id="@+id/btn_and"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/cat"
+        android:gravity="center"
+        android:onClick="AndroidQuiz"
+        android:padding="15dp"
+        android:text="Android"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
 
 </LinearLayout>
+
+
 </LinearLayout>
 
